@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "d";
 var adminprefix = '-M'
-const developers = ['452802651814625280'] //الاي دى حقك
+const developers = ['480762263075291146'] //الاي دى حقك
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
